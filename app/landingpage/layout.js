@@ -1,10 +1,10 @@
-
-export default function LandingPage() {
+export default function LandingPageLayout({ children }) {
     return (
         <div>
-            <div className="p-4 w-full bg-blue-300">Header</div>
-            <div>LandingPage</div>
+            <div>
+                <div className="bg-black p-4 w-full h-screen">{children}</div>
+            </div>
             <div>Footer</div>
         </div>
-    )
+    );
 }
