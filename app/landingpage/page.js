@@ -1,8 +1,5 @@
 "use client";
 
-import { TextRevealCard } from "@/components/ui/text-reveal-card";
-
-
 export default function LandingPage() {
     return (
         <div>
@@ -20,7 +17,6 @@ export default function LandingPage() {
                         </div>
                     </div>
                 </div>
-                <TextRevealCard className="mt-10" text="Hover over me to reveal the secret message!" revealText="Welcome to My Portfolio 🚀"></TextRevealCard>
             </div>
         </div>
     )
